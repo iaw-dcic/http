@@ -1,0 +1,13 @@
+Comandos Telnet
+
+telnet localhost 80
+
+GET /~mariano/practicas/http/ HTTP/1.0
+
+GET /~mariano/practicas/http/estilo.css  HTTP/1.0
+
+PUT /~mariano/practicas/http/ HTTP/1.0
+DELETE /~mariano/practicas/http/ HTTP/1.0
+
+GET /~mariano/practicas/http/?cantidad=5 HTTP/1.0
+Connection: keep-alive
