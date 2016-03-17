@@ -1,13 +1,13 @@
 Comandos Telnet
 
-telnet localhost 80
+telnet hosting.cs.uns.edu.ar 80
 
-GET /~mariano/practicas/http/ HTTP/1.0
+GET /~mtucat/http/
 
-GET /~mariano/practicas/http/estilo.css  HTTP/1.0
+GET /~mtucat/http/estilo.css
 
-PUT /~mariano/practicas/http/ HTTP/1.0
-DELETE /~mariano/practicas/http/ HTTP/1.0
+PUT /~mtucat/http/
+DELETE /~mtucat/http/
 
-GET /~mariano/practicas/http/?cantidad=5 HTTP/1.0
+GET /~mtucat/http/?cantidad=5
 Connection: keep-alive
